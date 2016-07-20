@@ -285,7 +285,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '3vnFZWXW_M2uUzRvM0hKzRinR7vw8rjbYAE8kuwNHCNx-iZBTMIdi3fNwDl1KTAMBMIk0PIInA';
+$settings['hash_salt'] = 'djfr89kqCKsG1I9F2f4IGDXZoYtJPd1R_byR57s_m6IwMBtKwesXmW_7UEjHI49tg8d5SW9gPA';
 
 /**
  * Deployment identifier.
@@ -715,7 +715,7 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
 #   include __DIR__ . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'khoawin_tides-test',
+  'database' => 'tides_drupal_test',
   'username' => 'root',
   'password' => '',
   'prefix' => '',
@@ -725,4 +725,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_plMYrJVX712DjF5vgdJIjZqMUXktN9L7xbVE6_6YYokOUPG90dF12Q7vRgkhD962OxwCUH9Nxw/sync';
+$config_directories['sync'] = 'sites/default/files/config_x1QcAoHnGIMcuRjnTADJsLM-qJObKNdQjvcpRydc1SktNaHk7nN0BfD3a6iNfUKSaMclHXPeOg/sync';
